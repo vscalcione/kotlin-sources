@@ -1,4 +1,4 @@
-package it.kotlin.course
+package it.kotlin.course.exercises
 
 class HelloWorld {
 
@@ -7,7 +7,7 @@ class HelloWorld {
     }
 }
 
-fun main() {
+fun main(args: Array<String>) {
     var HelloWorld = HelloWorld();
     HelloWorld.printMessage("I'm a Kotlin file!!! ");
 }
